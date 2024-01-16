@@ -12,7 +12,11 @@ import lombok.Data;
 
 @Data
 public class ContactForm {
-	
+
+public ContactForm()
+{
+
+}	
 	private Integer contactId;
 	
 	
